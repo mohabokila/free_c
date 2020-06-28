@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
-const myid = ['ID'];
+const myid = ['726916780265832499
+'];
 const prefix = ['$'];
 const client = new Discord.Client();
 const client2 = new Discord.Client();
@@ -7,6 +8,11 @@ const client3 = new Discord.Client();
 const client4 = new Discord.Client();
 const client5 = new Discord.Client();
 const client6 = new Discord.Client();
+const client7 = new Discord.Client();
+const client8 = new Discord.Client();
+const client9 = new Discord.Client();
+const client10 = new Discord.Client();
+const client11 = new Discord.Client();
 
 
 //???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
@@ -18,7 +24,11 @@ client3.login(process.env.TOKEN3);
 client4.login(process.env.TOKEN4);
 client5.login(process.env.TOKEN5);
 client6.login(process.env.TOKEN6);
-
+client7.login(process.env.TOKEN7);
+client8.login(process.env.TOKEN8);
+client9.login(process.env.TOKEN9);
+client10.login(process.env.TOKEN10);
+client11.login(process.env.TOKEN11);
 
 //???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 
@@ -137,7 +147,100 @@ message.channel.send('#profile')
   }
 });
 
+client7.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
 
+client8.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client9.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client10.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client11.on('message', message => {
+  if (message.content === 'd1') {
+message.channel.send('#daily')
+  }
+  if(message.content === 'c1'){
+message.channel.send('#credits')
+  }
+  if(message.content === 'r1'){
+message.channel.send("#rep "+"<@" + myid + ">")
+  }
+  if (message.content === 'p1') {
+message.channel.send('#profile')
+  }
+  if(message.content.startsWith("s1")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
 //???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 
 
@@ -177,6 +280,35 @@ client6.on('message', message => {
     }
 });
 
+client7.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``1`` ")
+    }
+});
+
+client8.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``1`` ")
+    }
+});
+
+client9.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``1`` ")
+    }
+});
+
+client10.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``1`` ")
+    }
+});
+
+client11.on('message', message => {
+    if(message.content === prefix+'number'){
+        message.channel.send(" My Token Is ``1`` ")
+    }
+});
 
 //???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 
@@ -263,3 +395,74 @@ if (message.content === prefix+'fast') {
         }
       }
 });
+
+client7.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client8.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client9.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client10.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client11.on('message', message => {
+if (message.content === prefix+'fast') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 30000; x++) {
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
